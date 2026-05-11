@@ -1,0 +1,17 @@
+name: metal_calc_app
+description: Калькулятор конструкций из профильной трубы, профнастила и листового металла.
+publish_to: "none"
+
+version: 0.2.0+2
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  path_provider: ^2.1.5
+  pdf: ^3.11.3
+
+flutter:
+  uses-material-design: true
